@@ -45,4 +45,3 @@ This project provides a user-friendly form with input validation based on regula
 3. As you type, the form will validate your input using the provided regex patterns.
 
 4. Invalid inputs will trigger and boundry will appear red, if input is valid then bottom boundry will appear green.
-
