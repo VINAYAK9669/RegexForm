@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+.container {
+  max-width: 500px;
+  padding: 3rem;
+  border: 2px solid white;
+  color: white;
+  border-radius: 11px;
+}
+.container h5 {
+  text-align: center;
+  margin-bottom: 2rem;
+  letter-spacing: 3px;
+  font-weight: 600;
+  line-height: 3rem;
+}
+.container h5 span {
+  color: yellow;
+  letter-spacing: 7px;
+}
+.input-container input {
+  color: white;
+  letter-spacing: 2px;
+}
