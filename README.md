@@ -39,7 +39,7 @@ It leverages HTML, CSS (styled with Materialize), and JavaScript to create an in
 
 ## Usage
 
-1. Click on this hosted link, then form will appear.
+1. You can access the live demo of this project on Netlify: [Live Demo](https://gilded-rolypoly-416fe5.netlify.app/).
 
 2. Enter user information into the respective fields.
 
