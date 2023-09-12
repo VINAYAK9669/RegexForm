@@ -16,40 +16,59 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="container">
-      <h5>Form Registation Using <span>REGEXP</span></h5>
-      <form action="#">
-        <div class="input-container">
-          <label for="FullName">FullName</label>
-          <input type="text" id="FullName" placeholder="Enter Your Full Name" />
-        </div>
-        <div class="input-container">
-          <label for="PhoneNumber">Phone Number</label>
-          <input
-            type="text"
-            id="PhoneNumber"
-            placeholder="Enter Your Phone Number"
-          />
-        </div>
-        <div class="input-container">
-          <label for="ZipCode">Zip Code</label>
-          <input type="text" id="ZipCode" placeholder="Enter Your Zip Code" />
-        </div>
-        <div class="input-container">
-          <label for="Password">Password</label>
-          <input
-            type="password"
-            id="Password"
-            placeholder="Create Your Password"
-          />
-        </div>
-        <div class="input-container">
-          <label for="Email">Email</label>
-          <input type="text" id="Email" placeholder="Enter your Email" />
-        </div>
-        <input type="button" value="Submit" class="btn red" id="submitBtn" />
-      </form>
-    </div>
+    <form>
+      <div class="container">
+        <h5>Form Registation Using <span>REGEXP</span></h5>
+        <form action="#">
+          <div class="input-container">
+            <label for="FullName">FullName</label>
+            <input
+              type="text"
+              id="FullName"
+              placeholder="Enter Your Full Name"
+              required
+            />
+          </div>
+          <div class="input-container">
+            <label for="PhoneNumber">Phone Number</label>
+            <input
+              type="text"
+              id="PhoneNumber"
+              placeholder="Enter Your Phone Number"
+              required
+            />
+          </div>
+          <div class="input-container">
+            <label for="ZipCode">Zip Code</label>
+            <input
+              type="text"
+              id="ZipCode"
+              placeholder="Enter Your Zip Code"
+              required
+            />
+          </div>
+          <div class="input-container">
+            <label for="Password">Password</label>
+            <input
+              type="password"
+              id="Password"
+              placeholder="Create Your Password"
+              required
+            />
+          </div>
+          <div class="input-container">
+            <label for="Email">Email</label>
+            <input
+              type="text"
+              id="Email"
+              placeholder="Enter your Email"
+              required
+            />
+          </div>
+          <input type="submit" value="Submit" class="btn red" id="submitBtn" />
+        </form>
+      </div>
+    </form>
     <script src="validate.js"></script>
   </body>
 </html>
