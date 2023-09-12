@@ -65,3 +65,21 @@ function inValidInput(element) {
   element.classList.remove("valid");
   element.classList.add("invalid");
 }
+
+document.querySelector("form").addEventListener("submit", (e) => {
+  e.preventDefault();
+  validateForm();
+});
+function validateForm() {
+  if (
+    userFullName.classList.contains("valid") &&
+    userPhoneNumer.classList.contains("valid") &&
+    userPassword.classList.contains("valid") &&
+    userZipCode.classList.contains("valid") &&
+    userEmail.classList.contains("valid")
+  ) {
+    document.querySelector("form").submit();
+  } else {
+    alert("Validate All Fields");
+  }
+}
