@@ -38,18 +38,11 @@ This project provides a user-friendly form with input validation based on regula
 
 ## Usage
 
-1. Clone this repository to your local machine.
+1. Click on this hosted link, then form will appear.
 
-2. Open the HTML file (`index.html`) in your web browser to access the form.
+2. Enter user information into the respective fields.
 
-3. Enter user information into the respective fields.
+3. As you type, the form will validate your input using the provided regex patterns.
 
-4. As you type, the form will validate your input using the provided regex patterns.
+4. Invalid inputs will trigger and boundry will appear red, if input is valid then bottom boundry will appear green.
 
-5. Invalid inputs will trigger error messages, ensuring that users provide valid data.
-
-6. You can integrate this form into your own project by copying the HTML, CSS, and JavaScript code.
-
-7. Customize the form's appearance and behavior to suit your specific requirements.
-
-Enjoy using this user input validation form with regex patterns to enhance your web applications!
